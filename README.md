@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Đồ án thực hành NHÓM 1 - Bộ môn Nhập Môn Công Nghệ Phần Mềm
+Đồ án thực hành - Bộ môn Nhập Môn Công Nghệ Phần Mềm
 
 ##### Quản lý giải đấu bóng đá:
 
@@ -11,12 +11,9 @@
 
 #### Giáo viên phụ trách: Thầy Ngô Ngọc Đăng Khoa
 
-#### Thông tin thành viên nhóm nhóm:
+#### Thông tin:
 
-1. Ngô Quốc Toại - 19120687
-2. Lê Thị Thu Hiền - 19120224
-3. Phạm Nhựt Quang - 19120341
-4. Nguyễn Huy Tùng - 19120422
+Ngô Quốc Toại - 19120687
 
 Link demo app: https://cnpm-fifa.netlify.app/
 
