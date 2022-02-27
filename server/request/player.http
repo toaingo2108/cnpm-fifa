@@ -1,0 +1,50 @@
+
+###
+GET http://localhost:5000/api/players/61dc3367769aa631accf9d8b
+Content-Type: application/json
+
+###
+GET http://localhost:5000/api/players/details/61dda10feb9b4716a4e09530
+Content-Type: application/json
+
+###
+GET http://localhost:5000/api/players
+Content-Type: application/json
+
+###
+POST http://localhost:5000/api/players
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTkxZGVlNTY1NGNiN2I1OTNiYWFiZWEiLCJpYXQiOjE2MzY5ODc4MDZ9.w4BQtTHCdPRDvgFHi4haDxfLBnunE5GGGqVMSB4xMMg
+
+{
+    "name": "Trần Văn E",
+    "age": "23",
+    "position": "Thủ môn",
+    "number": "1",
+    "avatar": "https://baoquocte.vn/stores/news_dataimages/thanhtruc/122019/21/07/in_article/cau-thu-viet-nam-thong-tri-doi-hinh-tieu-bieu-bong-da-dong-nam-a-2019.jpg",
+    "height": "190",
+    "weight": "80",
+    "teamId": "61dc3367769aa631accf9d8b"
+}
+
+###
+PUT http://localhost:5000/api/players/6192799be0df9d4d8d4564d0
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTkxZGVlNTY1NGNiN2I1OTNiYWFiZWEiLCJpYXQiOjE2MzY5ODc4MDZ9.w4BQtTHCdPRDvgFHi4haDxfLBnunE5GGGqVMSB4xMMg
+
+{
+    "name": "Ngo Toai",
+    "age": "",
+    "position": "Tiền đạo",
+    "number": "",
+    "avatar": "",
+    "height": "",
+    "weight": "",
+    "scored": "",
+    "teamName": "Doi bong test"
+}
+
+###
+DELETE http://localhost:5000/api/players/61bb3ed8666efaefc9d1381b
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTkxZGVlNTY1NGNiN2I1OTNiYWFiZWEiLCJpYXQiOjE2MzY5ODc4MDZ9.w4BQtTHCdPRDvgFHi4haDxfLBnunE5GGGqVMSB4xMMg
+

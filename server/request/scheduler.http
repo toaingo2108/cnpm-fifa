@@ -1,0 +1,15 @@
+
+
+# Schedulers
+###
+GET http://localhost:5000/api/schedulers/61dc326afdc17d56ea3afbe5
+Content-Type: application/json
+
+###
+GET http://localhost:5000/api/schedulers/details/61de32d668d67d0b669ba1ba
+Content-Type: application/json
+
+###
+POST http://localhost:5000/api/schedulers/61dc326afdc17d56ea3afbe5
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTkxZGVlNTY1NGNiN2I1OTNiYWFiZWEiLCJpYXQiOjE2MzcwNTcxODl9.x7vmhYAlAEXUCxJ4u04nDMsocOE4LE6RmO7_QWe8u7Y

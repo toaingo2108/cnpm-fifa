@@ -1,0 +1,43 @@
+
+###
+GET http://localhost:5000/api/teams
+Content-Type: application/json
+
+###
+GET http://localhost:5000/api/teams/61dc326afdc17d56ea3afbe5
+Content-Type: application/json
+
+###
+GET http://localhost:5000/api/teams/details/61dc3367769aa631accf9d8b
+Content-Type: application/json
+
+###
+GET http://localhost:5000/api/teams/canAdd/61dc326afdc17d56ea3afbe5
+Content-Type: application/json
+
+###
+POST http://localhost:5000/api/teams
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTkxZGVlNTY1NGNiN2I1OTNiYWFiZWEiLCJpYXQiOjE2MzY5ODk1Mjl9.91jAhRoKupdqyCPJ8uuaTQKlbFy7n_l2j_u2eVS4CjE
+
+{
+    "name": "MU",
+    "logo": "https://icon2.cleanpng.com/20190227/zst/kisspng-football-fc-bayern-munich-logo-team-arquivo-de-and-more-pgina-2-de-2-bhs-designe-5c76250a8a12b5.3811488715512466025656.jpg",
+    "trainer": "Nguyễn Hoàng Tiến"
+}
+
+# ###
+# PUT http://localhost:5000/api/teams/61965d7dd02f171878a30e27
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTkyNmJiYWQ5ODlkODkwNzg3ODUxZDgiLCJpYXQiOjE2MzY5ODY0NTB9.4--Os84r6hPdii8PmJ3UEu6AP-9XspvlzySZjvGHS3o
+
+# {
+#     "name": "Doi cua Toai",
+#     "logo": "Doi cua Toai",
+#     "trainer": "Doi cua Toai"
+# }
+
+# ###
+# DELETE http://localhost:5000/api/teams/61965d7dd02f171878a30e27
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTkxZGVlNTY1NGNiN2I1OTNiYWFiZWEiLCJpYXQiOjE2MzY5ODY2MDl9.tDpsA3dpDWgyHgxmWy76CI3vVMDu8OG6y08rX0i_Geo

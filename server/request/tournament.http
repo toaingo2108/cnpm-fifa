@@ -1,0 +1,47 @@
+###
+GET http://localhost:5000/api/tournaments
+Content-Type: application/json
+
+###
+GET http://localhost:5000/api/tournaments/61dc389c53981ab23866b393
+Content-Type: application/json
+
+###
+GET http://localhost:5000/api/tournaments/search/HCMUS
+Content-Type: application/json
+
+###
+POST http://localhost:5000/api/tournaments
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTkxZGVlNTY1NGNiN2I1OTNiYWFiZWEiLCJpYXQiOjE2NDE3ODY1Mjh9.v13L_2qTsXRZwH5WGvjM1cfsMC8kEurOAR0DK_vPNcc
+
+{
+    "name": "SEA GAME 2022",
+    "description": "Mô tả ...",
+    "image": "https://crickettimes.com/wp-content/uploads/2021/10/ICC-T20-World-Cup-2021-1260x657.jpeg"
+}
+
+###
+PUT http://localhost:5000/api/tournaments/addTeam/61dc326afdc17d56ea3afbe5
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTkxZGVlNTY1NGNiN2I1OTNiYWFiZWEiLCJpYXQiOjE2MzcwNTcxODl9.x7vmhYAlAEXUCxJ4u04nDMsocOE4LE6RmO7_QWe8u7Y
+
+{
+    "teamId": "61dc4584d96f9b2e87df920e"
+}
+
+###
+PUT http://localhost:5000/api/tournaments/61dc389c53981ab23866b393
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTkxZGVlNTY1NGNiN2I1OTNiYWFiZWEiLCJpYXQiOjE2MzcwNTcxODl9.x7vmhYAlAEXUCxJ4u04nDMsocOE4LE6RmO7_QWe8u7Y
+
+{
+    "name": "Giải đấu Thành phố",
+    "description": "Giải đấu dành cho những thanh niên nhà giàu",
+    "status": "Going on"
+}
+
+# ###
+# DELETE http://localhost:5000/api/tournaments/a6193a1836b298b70a5def73f
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTkxZGVlNTY1NGNiN2I1OTNiYWFiZWEiLCJpYXQiOjE2MzcwNTcxODl9.x7vmhYAlAEXUCxJ4u04nDMsocOE4LE6RmO7_QWe8u7Y
+
